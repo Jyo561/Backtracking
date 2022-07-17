@@ -23,5 +23,11 @@ class subset{
 			}
 			System.out.println();
 		}
+		if(t[n][w]==1){
+			System.out.println("True,Subset SUm can be formed");
+		}
+		else{
+			System.out.println("Cannot be formed");
+		}
 	}
 }
