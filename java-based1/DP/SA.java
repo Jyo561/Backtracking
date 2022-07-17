@@ -36,5 +36,6 @@ class ASM{
 			}
 			System.out.println();
 		}
+		System.out.println("Total cost:"+t[xl][yl]);
 	}
 }
