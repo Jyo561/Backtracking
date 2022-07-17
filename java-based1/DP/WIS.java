@@ -21,5 +21,7 @@ class WIS{
 		for (int i=0;i<v.length;i++) {
 			System.out.print(m[i]+" ");
 		}
+		System.out.println();
+		System.out.println("Maximum profit:"+m[n-1]);
 	}
 }
