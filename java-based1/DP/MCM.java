@@ -31,5 +31,6 @@ class MCM{
 			}
 			System.out.println();
 		}
+		System.out.println("Minimum number of multiplications:"+m[1][n]);
 	}
 }
