@@ -1,3 +1,5 @@
+
+
 class RNA{
 	static boolean matches(char k,char j){
 		if((k=='A' && j=='U')||(k=='U' && j=='A')||(k=='G' && j=='C')||(k=='C' && j=='G')){
@@ -15,7 +17,7 @@ class RNA{
 			for (int i=1;i<=(n)-l;i++) {
 				int j=i+l;
 				for (int k=i;k<=j-5;k++) {
-					char c=p.charAt(k);
+					char c=p.charAt(k-1);
 					char b=p.charAt((j-1));
 					if(matches(c,b)){
 						M[i][j]=Math.max(M[i][j-1],1+M[i][k-1]+M[k+1][j-1]);
