@@ -1,0 +1,17 @@
+Weighted graph algorithms: Network flows and Bipartite matching
+Backtracking: Control Abstraction; Search pruning
+Backtracking: Generating all subsets; Generating all permutations; Generating
+all paths in a graph, Sum-of-subsets, Heuristic search methods
+
+Intractable Problems and Approximation Algorithms:
+
+Class of Problems - P, NP, NP-Hard, NP-Complete
+Intractability of algorithms
+Two perspectives: Optimization and decision problem and their inter-conversion
+Abstract problems
+Deterministic and 
+Strategies to deal with intractability: - Problem reduction, approximation algorithms (vertex cover and tsp)
+Examples of simple reductions: (closest pair -> sorting), (longest increasing subsequence -> edit distance), (lcm -> gcd), (sort -> convex hull)
+Examples on elementary hardness reductions: (hamiltonian cycle -> tsp),(vertex cover -> independent set),(independent -> clique),(3-SAT -> independent set)
+Satisfiability: circuit SAT, Formula SAT (3-CNF) 
+Pspace: introduction to pspace problems,
